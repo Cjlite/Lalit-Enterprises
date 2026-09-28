@@ -64,7 +64,7 @@ export default function Hero() {
             </div>
             
             {/* Floating Card */}
-            <div className="absolute -bottom-6 -left-6 md:bottom-10 md:-left-10 bg-white p-5 rounded-xl shadow-xl border border-gray-100 max-w-xs animate-fade-in-up">
+            <div className="absolute -bottom-6 left-2 right-2 md:right-auto md:bottom-10 md:-left-10 bg-white p-5 rounded-xl shadow-xl border border-gray-100 md:max-w-xs animate-fade-in-up mx-auto z-10">
               <div className="font-bold text-navy-900 mb-2 flex items-center gap-2">
                 <div className="w-8 h-8 rounded-full bg-solar/20 flex items-center justify-center">
                   <Zap size={16} className="text-solar" />

@@ -68,9 +68,9 @@ export default function CompletedProjects() {
           </div>
 
           {/* Grid of Images */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 h-[400px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:h-[400px]">
             {images.slice(0, 2).map((img, index) => (
-              <div key={index} className="relative rounded-2xl overflow-hidden h-[190px] sm:h-full group shadow-xl ring-1 ring-white/10">
+              <div key={index} className="relative rounded-2xl overflow-hidden h-[250px] sm:h-full group shadow-xl ring-1 ring-white/10">
                 <Image
                   src={img.src}
                   alt={img.title}
