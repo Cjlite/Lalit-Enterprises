@@ -54,7 +54,7 @@ export default function Hero() {
           <div className="relative lg:h-[600px] flex items-center justify-center">
             <div className="relative w-full aspect-square md:aspect-[4/3] lg:aspect-auto lg:h-full rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/project3.png"
+                src="/hero-image.jpg"
                 alt="Solar Panels on Rooftop"
                 fill
                 className="object-cover"
