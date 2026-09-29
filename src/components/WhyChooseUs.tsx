@@ -1,4 +1,4 @@
-import { CheckCircle2 } from "lucide-react";
+// import { CheckCircle2 } from "lucide-react";
 
 export default function WhyChooseUs() {
   const reasons = [
@@ -42,7 +42,7 @@ export default function WhyChooseUs() {
               }`}
             >
               <div className="flex items-start gap-4">
-                <CheckCircle2 size={24} className="text-energy flex-shrink-0 mt-1" />
+                {/* <CheckCircle2 size={24} className="text-energy flex-shrink-0 mt-1" /> */}
                 <div>
                   <h3 className="text-lg font-bold text-gray-900 mb-2">{reason.title}</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">

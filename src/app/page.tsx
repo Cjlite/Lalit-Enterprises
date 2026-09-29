@@ -17,7 +17,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-background selection:bg-solar/30 selection:text-navy-900">
+    <main className="flex min-h-screen flex-col bg-background selection:bg-solar/30 selection:text-navy-900 overflow-x-hidden">
       <Navbar />
       <Hero />
       <TrustStrip />
