@@ -1,3 +1,5 @@
+"use client";
+
 import { ReactNode } from "react";
 import { ArrowRight } from "lucide-react";
 import { openWhatsApp } from "@/utils/whatsapp";
